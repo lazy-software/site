@@ -14,7 +14,7 @@ function App() {
           </p>
 
           <div className="bg-gray-50 dark:bg-gray-800/50 p-4 rounded-lg text-sm text-gray-600 dark:text-gray-400 border border-gray-100 dark:border-gray-800">
-            <p className="font-semibold mb-1 text-gray-900 dark:text-gray-200">How to install:</p>
+            <p className="font-semibold mb-1 text-gray-900 dark:text-gray-200">Install on your mobile device</p>
             <p>
               Open any app in your browser and select <span className="font-medium text-gray-900 dark:text-gray-200">"Add to Home Screen"</span> or <span className="font-medium text-gray-900 dark:text-gray-200">"Install"</span> from the menu. They work offline and feel just like native apps.
             </p>
@@ -45,7 +45,7 @@ function App() {
           <div className="block p-6 bg-white dark:bg-gray-900 rounded-xl shadow-lg border border-gray-200 dark:border-gray-800 flex flex-col items-center text-center">
             <img src="/list-icon.png" alt="Lazy List Icon" className="w-16 h-16 mb-4 rounded-xl shadow-sm" />
             <h2 className="text-2xl font-semibold mb-2">Lazy List</h2>
-            <p className="text-gray-600 dark:text-gray-400 mb-4">A minimal todo list for getting things done.</p>
+            <p className="text-gray-600 dark:text-gray-400 mb-4">A minimal tool to keep track of ideas, tasks, and everything else.</p>
             <div className="flex space-x-4 w-full">
               <a
                 href="https://list.lazy.software"
