@@ -62,6 +62,17 @@ function App() {
             </div>
           </div>
         </div>
+
+        <footer className="p-6 text-center text-gray-500 dark:text-gray-500 text-sm mt-8">
+          <div className="flex justify-center space-x-6">
+            <a href="https://bsky.app/profile/lazy-software.bsky.social" className="hover:text-gray-900 dark:hover:text-gray-300 transition-colors">
+              Bluesky
+            </a>
+            <a href="https://mastodon.social/@lazysoft" className="hover:text-gray-900 dark:hover:text-gray-300 transition-colors">
+              Mastodon
+            </a>
+          </div>
+        </footer>
       </div>
     </div>
   );
