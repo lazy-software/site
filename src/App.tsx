@@ -3,25 +3,25 @@
 function App() {
   return (
     <div className="h-[100dvh] bg-gray-100 dark:bg-gray-950 transition-colors duration-200 flex flex-col overflow-hidden">
-      <div className="max-w-md mx-auto w-full h-full bg-white dark:bg-gray-900 shadow-2xl relative transition-colors duration-200 flex flex-col overflow-y-auto p-8 text-gray-900 dark:text-gray-100">
+      <div className="max-w-md md:max-w-5xl mx-auto w-full h-full bg-white dark:bg-gray-900 shadow-2xl relative transition-colors duration-200 flex flex-col overflow-y-auto p-8 text-gray-900 dark:text-gray-100">
         <div className="flex flex-col items-center justify-center space-y-4 mb-8">
           <div className="flex items-center space-x-3">
             <img src="/logo.png" alt="Lazy Software Logo" className="w-12 h-12 object-contain rounded-xl shadow-sm bg-white dark:bg-gray-800 dark:invert" />
             <h1 className="text-3xl font-bold tracking-tight">lazy.software</h1>
           </div>
-          <p className="text-center text-gray-600 dark:text-gray-400">
+          <p className="text-center text-gray-600 dark:text-gray-400 max-w-xl">
             Try our open-source progressive web apps (PWAs) designed to do one thing well. No bloat, no tracking, just simple tools for the lazy.
           </p>
 
-          <div className="bg-gray-50 dark:bg-gray-800/50 p-4 rounded-lg text-sm text-gray-600 dark:text-gray-400 border border-gray-100 dark:border-gray-800">
-            <p className="font-semibold mb-1 text-gray-900 dark:text-gray-200">Install on your mobile device</p>
-            <p>
+          <div className="bg-gray-50 dark:bg-gray-800/50 p-4 rounded-lg text-sm text-gray-600 dark:text-gray-400 border border-gray-100 dark:border-gray-800 max-w-xl">
+            <p className="font-semibold mb-1 text-gray-900 dark:text-gray-200 text-center">Install on your mobile device</p>
+            <p className="text-center">
               Open any app in your browser and select <span className="font-medium text-gray-900 dark:text-gray-200">"Add to Home Screen"</span> or <span className="font-medium text-gray-900 dark:text-gray-200">"Install"</span> from the menu. They work offline and feel just like native apps.
             </p>
           </div>
         </div>
 
-        <div className="grid gap-6">
+        <div className="grid gap-6 md:grid-cols-2">
           <div className="block p-6 bg-white dark:bg-gray-900 rounded-xl shadow-lg border border-gray-200 dark:border-gray-800 flex flex-col items-center text-center">
             <img src="/fast-icon.png" alt="Lazy Fast Icon" className="w-16 h-16 mb-4 rounded-xl shadow-sm" />
             <h2 className="text-2xl font-semibold mb-2">Lazy Fast</h2>
