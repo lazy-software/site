@@ -22,11 +22,11 @@ function App() {
         </div>
 
         <div className="grid gap-6 md:grid-cols-2">
-          <div className="block p-6 bg-white dark:bg-gray-900 rounded-xl shadow-lg border border-gray-200 dark:border-gray-800 flex flex-col items-center text-center">
+          <div className="block p-6 bg-white dark:bg-gray-900 rounded-xl shadow-lg border border-gray-200 dark:border-gray-800 flex flex-col items-center text-center h-full">
             <img src="/fast-icon.png" alt="Lazy Fast Icon" className="w-16 h-16 mb-4 rounded-xl shadow-sm" />
             <h2 className="text-2xl font-semibold mb-2">Lazy Fast</h2>
             <p className="text-gray-600 dark:text-gray-400 mb-4">A simple intermittent fasting tracker.</p>
-            <div className="flex space-x-4 w-full">
+            <div className="flex space-x-4 w-full mt-auto">
               <a
                 href="https://fast.lazy.software"
                 className="flex-1 px-4 py-2 bg-gray-900 hover:bg-gray-800 dark:bg-gray-100 dark:hover:bg-gray-200 text-white dark:text-gray-900 rounded-lg font-medium transition-colors"
@@ -42,11 +42,11 @@ function App() {
             </div>
           </div>
 
-          <div className="block p-6 bg-white dark:bg-gray-900 rounded-xl shadow-lg border border-gray-200 dark:border-gray-800 flex flex-col items-center text-center">
+          <div className="block p-6 bg-white dark:bg-gray-900 rounded-xl shadow-lg border border-gray-200 dark:border-gray-800 flex flex-col items-center text-center h-full">
             <img src="/list-icon.png" alt="Lazy List Icon" className="w-16 h-16 mb-4 rounded-xl shadow-sm" />
             <h2 className="text-2xl font-semibold mb-2">Lazy List</h2>
             <p className="text-gray-600 dark:text-gray-400 mb-4">A minimal tool to keep track of ideas, tasks, and everything else.</p>
-            <div className="flex space-x-4 w-full">
+            <div className="flex space-x-4 w-full mt-auto">
               <a
                 href="https://list.lazy.software"
                 className="flex-1 px-4 py-2 bg-gray-900 hover:bg-gray-800 dark:bg-gray-100 dark:hover:bg-gray-200 text-white dark:text-gray-900 rounded-lg font-medium transition-colors"
